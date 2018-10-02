@@ -1,0 +1,7 @@
+---
+applications:
+- name: gemfire-test
+  memory: 1G
+  path: ./target/session-demo-0.0.1-SNAPSHOT.war
+  services:
+  - pcc-small
