@@ -23,6 +23,13 @@ password 는 임의로 입력
 
 
 ---
+## PCC 서비스 인스턴스 생성하기
+
+~~~
+cf create-service p-cloudcache dev-plan pcc-small
+~~~
+
+---
 ## PCC에 session정보를 저장할 region(=table같은 것)을 생성하기
 
 #### gfsh다운로드
@@ -47,3 +54,12 @@ Successfully connected to: GemFire Manager HTTP service @ org.apache.geode.manag
 Cluster-0 gfsh> create region --name=test --type=PARTITION --entry-idle-time-expiration=180 --entry-idle-time-expiration-action=INVALIDATE --enable-statistics=true
 
 ~~~
+
+---
+## sample app push
+
+~~~
+cf push
+~~~
+
+
