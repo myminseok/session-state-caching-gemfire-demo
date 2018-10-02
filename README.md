@@ -4,7 +4,7 @@
 * https://github.com/Pivotal-Field-Engineering/pivotal-gemfire-spring-session
 
 ---
-## gfsh client의 환경의 truststore에 인증서 추가하기
+## gfsh client의 java truststore에 인증서 추가하기
 PCC의 서비스url이 HTTPS인 경우 gfsh client의 환경의 truststore에 인증서가 저장되어 있어야 한다. 다음은 그 절차를 설명한다.
 
 #### PCF PAS cert를 다운로드
